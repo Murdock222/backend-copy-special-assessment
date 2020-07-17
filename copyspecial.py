@@ -70,6 +70,9 @@ def main(args):
 
     if ns.tozip:
         zip_to(special_paths, ns.tozip)
+    
+    elif ns.tozip:
+        zip_to(special_paths, ns.tozip)
     else:
         print('\n'.join(special_paths))
 
