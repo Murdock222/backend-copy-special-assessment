@@ -71,8 +71,8 @@ def main(args):
     if ns.tozip:
         zip_to(special_paths, ns.tozip)
     
-    elif ns.tozip:
-        zip_to(special_paths, ns.tozip)
+    elif ns.todir:
+        copy_to(special_paths, ns.todir)
     else:
         print('\n'.join(special_paths))
 
